@@ -1,3 +1,7 @@
+/*Author: Devin Leigh
+ *Date:12/20/2019
+ *Project: Linked list, students held in nodes pointing to next node
+ */
 #include <iostream>
 #include <iomanip>
 #include "node.h"
