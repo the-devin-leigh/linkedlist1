@@ -1,3 +1,6 @@
+#ifndef NODE_H
+#define NODE_H
+
 #include <iostream>
 #include <cstring>
 #include "student.h"
@@ -16,3 +19,5 @@ class Node{
   Student* student; //Student node
   Node* next; //goes to next node
 };
+
+#endif

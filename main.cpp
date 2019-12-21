@@ -43,7 +43,8 @@ int main(){ //main
     char* studentName = new char[50];
     int id = 0;
     float gpa = 0;
-    cout << "Do you want to add or exit?" << endl;
+    cout << "Student linked list" << endl;
+    cout << "Do you want to add, print, or exit?" << endl;
     cin.getline(input, 25, '\n');
 
     if(strcmp(input, "add") == 0){
@@ -61,6 +62,8 @@ int main(){ //main
       cin.ignore(1000000, '\n');
 
       add(studentName, id, gpa);
+      print(head);
+    }else if(strcmp(input, "print") == 0){
       print(head);
     }else if(strcmp(input, "exit") == 0){
       active = 1;
