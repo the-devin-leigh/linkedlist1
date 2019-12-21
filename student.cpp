@@ -10,7 +10,7 @@ Student::Student(const char* setName, int setID, float setGpa){
   gpa = setGpa; //gpa = input gpa
 }
 
-Student::~Student(){//destructor
+Student::~Student(){ //destructor
   delete name;
 }
 

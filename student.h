@@ -6,7 +6,7 @@ using namespace std;
 class Student{
  public:
   Student(const char*, int, float);
-  ~Student(); //deconstructor
+  ~Student(); //destructor
   char* getName(); //returns the name
   int getID(); //returns id number
   float getGpa();
